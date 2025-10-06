@@ -1,5 +1,14 @@
 專案架構:
+## source 創建並進入虛擬環境
 
+## pip install -r requirements.txt   
+
+## 啟動Qdrant
+docker run -d \
+  --name qdrant \
+  -p 6333:6333 \
+  qdrant/qdrant
+  
 ## .env
 能設定模型及qdrant(向量資料庫)端點、資料夾
 
