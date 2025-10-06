@@ -1,0 +1,6 @@
+semantic-kernel[qdrant]
+qdrant-client
+python-dotenv
+langchain
+mcp[cli]
+anyio

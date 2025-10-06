@@ -1,0 +1,6 @@
+RAG stands for Retrieval-Augmented Generation. It is an approach that combines an external
+retrieval step (searching a knowledge base or documents) to provide context and a generative
+model that conditions on that retrieved context to produce answers.
+
+This demo shows how to index local text files into a vector store and use a small generator
+(model) to answer user queries using the retrieved passages.
